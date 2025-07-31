@@ -191,6 +191,7 @@ body {
         width: 100%;
         display: none;
         padding: 20px;
+        z-index: 1000;
     }
 
     .navbar-list.mobile-nav-active {
@@ -198,7 +199,7 @@ body {
     }
 
     .close-btn {
-        display: block;
+        display: none;
     }
 }
 
